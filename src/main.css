@@ -1,0 +1,35 @@
+.formStyle {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 280px;
+}
+
+.formStyle > .design {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  border: 2px solid red;
+  padding: 50px;
+  row-gap: 20px;
+  border-radius: 12px;
+}
+
+.formStyle > .design > input[type="text"] {
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.formStyle > .design > input[type="submit"] {
+  height: 40px;
+  width: 60%;
+  margin: auto;
+  background-color: green;
+  color: white;
+  font-size: 23px;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 10px;
+}

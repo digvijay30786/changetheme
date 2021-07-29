@@ -1,0 +1,12 @@
+.Head {
+  height: 100px;
+  width: 100%;
+  box-shadow: 1px 1px 1px 2px gray;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  box-sizing: border-box;
+  column-gap: 20px;
+  align-items: center;
+  background-color: blue;
+}
